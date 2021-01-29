@@ -3,3 +3,109 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* START UTILITY */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: rgb(245, 249, 252);
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+[class^=col-]{
+  padding: 0 15px;
+}
+
+.btn {
+  border: 1px solid black;
+}
+
+
+
+/* END UTILITY */
+
+/* START FIXED NAVBAR */
+
+/* .nav-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+
+[class^=nav-] {
+  height: 80px;
+  line-height: 80px;
+  display: inline;
+  list-style: none;
+  vertical-align: middle;
+}
+
+[class^=nav-] li {
+  display: inline-block;
+  color: rgb(94, 108, 127);
+}
+
+[class^=nav-] li a {
+  text-decoration: none;
+  color: rgb(94, 108, 127);
+}
+
+.nav-fixed-left {
+  float: left;
+}
+
+.nav-fixed-right {
+  float: right;
+}
+
+  /* START NAVBAR LEFT */
+
+.icon-english:before {
+  content: '\f7a2';
+  padding-right: 5px;
+}
+
+.icon-english:after {
+  content: '\25bc';
+  padding-left: 5px;
+}
+
+.icon-contact:before {
+  content: "|";
+  padding: 0 15px;
+}
+
+  /* END NAVBAR LEFT */
+
+  /* START NAVBAR RIGHT */
+
+.nav-fixed-right .fa {
+  color: rgb(114, 187, 205);
+}
+
+.btn {
+  border: 1px solid rgb(237, 126, 98);
+  padding: 10px 10px;
+}
+
+  /* END NAVBAR RIGHT */
+
+
+/* END FIXED NAVBAR */
