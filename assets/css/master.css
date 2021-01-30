@@ -33,6 +33,14 @@ header {
   padding: 0 15px;
 }
 
+.col-100 {
+  width: 100%;
+}
+
+.col-50 {
+  width: calc(100% / 2);
+}
+
 .btn {
   border: 1px solid rgb(237, 126, 98);
   padding: 10px 10px;
@@ -79,13 +87,18 @@ header {
   /* START FIRST NAVBAR LEFT */
 
 .nav-fixed-left .icon-arrow:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: '\f7a2';
   padding-right: 5px;
 }
 
 .icon-arrow:after {
-  content: '\25bc';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f078';
   padding-left: 5px;
+  vertical-align: middle;
 }
 
 .icon-line:before {
@@ -117,6 +130,9 @@ header {
 
   /* END FIRST NAVBAR RIGHT */
 
+/* END FIXED NAVBAR */
+
+/* START SECOND NAVBAR */
 
   /* START SECOND NAVBAR LEFT */
 
@@ -128,21 +144,58 @@ header {
   display: inline;
 }
 
-.nav-right {
-  float: right;
-}
-
-.nav-right li a {
-  color: rgb(94, 108, 127);
-  padding: 0 10px;
-}
   /* END SECOND NAVBAR LEFT */
 
   /* START SECOND NAVBAR RIGHT */
 
+  .nav-right {
+    float: right;
+  }
 
+  .nav-right li a {
+    color: rgb(94, 108, 127);
+    padding: 0 10px;
+  }
 
   /* END SECOND NAVBAR RIGHT */
 
+/* END SECOND NAVBAR */
 
-/* END FIXED NAVBAR */
+/* START JUMBO */
+
+.img-jumbo {
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 110% 100%;
+}
+
+.jumbo .txt-jumbo {
+  padding-top: 40px;
+  padding-bottom: 300px;
+}
+
+.txt-jumbo h1 {
+  font-size: 50px;
+  color: rgb(94, 108, 127);
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+.txt-jumbo p {
+  font-size: 20px;
+  color: rgb(94, 108, 127);
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.txt-jumbo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+/* END JUMBO */
