@@ -34,7 +34,9 @@ header {
 }
 
 .btn {
-  border: 1px solid black;
+  border: 1px solid rgb(237, 126, 98);
+  padding: 10px 10px;
+  border-radius: 5px;
 }
 
 
@@ -64,7 +66,6 @@ header {
 
 [class^=nav-] li a {
   text-decoration: none;
-  color: rgb(94, 108, 127);
 }
 
 .nav-fixed-left {
@@ -75,37 +76,73 @@ header {
   float: right;
 }
 
-  /* START NAVBAR LEFT */
+  /* START FIRST NAVBAR LEFT */
 
-.icon-english:before {
+.nav-fixed-left .icon-arrow:before {
   content: '\f7a2';
   padding-right: 5px;
 }
 
-.icon-english:after {
+.icon-arrow:after {
   content: '\25bc';
   padding-left: 5px;
 }
 
-.icon-contact:before {
+.icon-line:before {
   content: "|";
   padding: 0 15px;
 }
 
-  /* END NAVBAR LEFT */
+  /* END FIRST NAVBAR LEFT */
 
-  /* START NAVBAR RIGHT */
+  /* START FIRST NAVBAR RIGHT */
 
 .nav-fixed-right .fa {
   color: rgb(114, 187, 205);
 }
 
-.btn {
-  border: 1px solid rgb(237, 126, 98);
-  padding: 10px 10px;
+.btn-orange {
+  background-color: rgb(237, 126, 98);
+  color: #fff;
 }
 
-  /* END NAVBAR RIGHT */
+.btn-white {
+  color: rgb(237, 126, 98);
+  margin: 0 10px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+  /* END FIRST NAVBAR RIGHT */
+
+
+  /* START SECOND NAVBAR LEFT */
+
+.navbar {
+  background-color: #fff;
+}
+
+.logo {
+  display: inline;
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav-right li a {
+  color: rgb(94, 108, 127);
+  padding: 0 10px;
+}
+  /* END SECOND NAVBAR LEFT */
+
+  /* START SECOND NAVBAR RIGHT */
+
+
+
+  /* END SECOND NAVBAR RIGHT */
 
 
 /* END FIXED NAVBAR */
