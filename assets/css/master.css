@@ -49,8 +49,16 @@ header {
   width: 70%;
 }
 
+.col-60 {
+  width: 60%;
+}
+
 .col-50 {
   width: calc(100% / 2);
+}
+
+.col-40 {
+  width: 40%;
 }
 
 .col-33 {
@@ -76,11 +84,6 @@ header {
   padding: 10px 10px;
   border-radius: 5px;
   text-decoration: none;
-}
-
-.bg-white {
-  background-color: #fff;
-  padding: 0 10%;
 }
 
 .btn-big {
@@ -126,6 +129,11 @@ header {
 .border-right {
   border-right: 1px solid #fff;
 }
+
+.bg-white {
+  background-color: #fff;
+}
+
 
 /* END UTILITY */
 
@@ -214,6 +222,11 @@ header {
 /* START SECOND NAVBAR */
 
   /* START SECOND NAVBAR LEFT */
+
+  .bg-nav-white {
+    background-color: #fff;
+    padding: 0 10%;
+  }
 
 .nav-menu {
   padding-top: 80px;
@@ -423,7 +436,7 @@ h2 {
 /* START FIFTH SECTION COMPANY */
 
 .text-company {
-  padding: 45px;
+  padding: 40px 60px;
   text-align: left;
 }
 
@@ -438,11 +451,36 @@ h2 {
 }
 
 .company {
-  padding: 70px;
+  padding: 70px 30px 70px 100px;
 }
 
 .img-company {
-  height: 35px;
-  padding-bottom: 10px;
-  padding-right: 10px;
+  width: 20%;
+  margin: 2% 2%;
+  vertical-align: middle;
+}
+
+.text-free-test h2 {
+  padding: 10px 0;
+}
+
+.text-offert  {
+  font-size: 15px;
+  color: rgb(39, 55, 72);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 40px 0 60px;
+}
+
+.disclaimer {
+  padding: 60px 0;
+  font-size: 10px;
+}
+
+.img-free-test {
+  height: 350px;
+  background-image: url(../img/woman.webp);
+  background-repeat: no-repeat;
+  background-size: 42%;
+  background-position: 100% 100%;
 }
