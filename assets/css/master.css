@@ -17,7 +17,7 @@ header {
 }
 
 .row {
-  margin: 0 -15px;
+  /* margin: 0 -15px; */
 }
 
 .row:after {
@@ -38,7 +38,7 @@ header {
 
 [class^=col-]{
   float: left;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .col-100 {
@@ -316,7 +316,6 @@ h2 {
 
 /* START SECOND SECTION MAIN BOX WHITE */
 
-
 .box-white {
   background-color: #fff;
   border-radius: 5px;
@@ -327,7 +326,6 @@ h2 {
   padding: 60px 0;
   width: 90%;
   margin: 0 auto;
-
 }
 
 .img-service {
@@ -348,7 +346,7 @@ h2 {
   width: 70%;
   margin-left: 35px;
   vertical-align: middle;
-  }
+}
 
 .col-70 ul {
   display: inline-block;
@@ -389,7 +387,6 @@ h2 {
   padding-top: 70px;
   padding-bottom: 10px;
 }
-
 
 /* END THIRD SECTION MAIN THREE BOX WHITE */
 
@@ -483,4 +480,77 @@ h2 {
   background-repeat: no-repeat;
   background-size: 42%;
   background-position: 100% 100%;
+}
+
+/* END FIFTH SECTION COMPANY */
+
+/* START FOOTER */
+
+footer {
+  background-color: rgb(38, 57, 72);
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  color: rgb(210, 214, 217);
+  padding-bottom: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.menu-footer a, .icon-social a{
+  color: rgb(210, 214, 217);
+  padding-bottom: 15px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.title-menu-footer {
+  padding: 35px 0;
+  text-align: left;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-footer {
+  padding-bottom: 50px;
+}
+
+.btn-gray {
+  background-color: rgb(210, 214, 217);
+  border-color: rgb(210, 214, 217);
+  color: rgb(38, 57, 72);
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.icon-social {
+  display: inline;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.menu-footer ul {
+  text-align: center;
+}
+
+.menu-footer li {
+  display: inline;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.divisor-footer {
+  margin: 20px 0;
+}
+
+.navbar-footer .nav-right li a{
+  color: rgb(210, 214, 217);
 }
