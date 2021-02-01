@@ -11,42 +11,46 @@
   <body>
     <header>
       <!-- First fixed navbar -->
-      <div class="container">
-        <div class="row">
-          <div class="nav-fixed">
-            <ul class="nav-fixed-left">
-              <li class="icon-arrow">English</li>
-              <li class="icon-line">Contact Us</li>
-            </ul>
-            <ul class="nav-fixed-right">
-              <li><i class="fa fa-search"></i></li>
-              <li><a class="btn btn-white" href="#">Log in</a></li>
-              <li><a class="btn btn-orange" href="#">GetHubspotFree</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Dividing line -->
-      <hr>
-      <!-- Second nabar -->
-      <div class="container-fluid bg-white">
-        <div class="row">
-          <div class="navbar">
-            <div class="nav-left">
-              <div class="logo">
-                <img src="assets/img/logo.svg" alt="Logo Hubspot">
-              </div>
+      <nav class="nav-fixed">
+        <div class="container">
+          <div class="row">
+            <div>
+              <ul class="nav-fixed-left">
+                <li class="icon-arrow">English</li>
+                <li class="icon-line">Contact Us</li>
+              </ul>
+              <ul class="nav-fixed-right">
+                <li><i class="fa fa-search"></i></li>
+                <li><a class="btn btn-white" href="#">Log in</a></li>
+                <li><a class="btn btn-orange" href="#">GetHubspotFree</a></li>
+              </ul>
             </div>
-            <ul class="nav-right">
-              <li class="icon-arrow"><a href="#">Software</a></li>
-              <li><a href="#">Pricing</a> </li>
-              <li class="icon-arrow"><a href="#">Resources</a></li>
-              <li class="icon-arrow"><a href="#">Partners</a></li>
-              <li class="icon-arrow"><a href="#">About</a></li>
-            </ul>
           </div>
         </div>
-      </div>
+        <!-- Dividing line -->
+        <hr>
+      </nav>
+      <!-- Second nabar -->
+      <nav>
+        <div class="container-fluid bg-white nav-menu">
+          <div class="row">
+            <div class="navbar">
+              <div class="nav-left">
+                <div class="logo">
+                  <img src="assets/img/logo.svg" alt="Logo Hubspot">
+                </div>
+              </div>
+              <ul class="nav-right">
+                <li class="icon-arrow"><a href="#">Software</a></li>
+                <li><a href="#">Pricing</a> </li>
+                <li class="icon-arrow"><a href="#">Resources</a></li>
+                <li class="icon-arrow"><a href="#">Partners</a></li>
+                <li class="icon-arrow"><a href="#">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
       <!-- Jumbo -->
       <section class="jumbo img-jumbo">
         <div class="container">
@@ -54,9 +58,11 @@
             <div class="col-50">
               <div class="txt-jumbo">
                 <h1>There's a better way to grow.</h1>
-                <p>Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer."</p>
+                <p class="description">Marketing, sales, and service software that helps your business
+                   grow without compromise. Because "good for the business" should
+                   also mean "good for the customer."</p>
                 <a class="btn btn-orange btn-big" href="#">GetHubspotFree</a>
-                <p>Get started with FREE tools, and upgrade as you grow.</p>
+                <p class="description">Get started with FREE tools, and upgrade as you grow.</p>
               </div>
             </div>
           </div>
@@ -68,9 +74,77 @@
       </section>
     </header>
     <main>
-      <!-- Powerful Alone. Better Together -->
+      <!-- First - no background - "Powerful Alone" -->
       <section>
+        <div class="container marg-t-70">
+          <div class="row">
+            <div class="col-100">
+              <div class="contained">
+                <img class="img-cube" src="assets/img/cube.webp" alt="Cubo Hubspot">
+                <h2>Powerful Alone. Better Together</h2>
+                <p class="description">HubSpot offers a full stack of software for marketing, sales,
+                  and customers service, with a completely free CRM at its core.<br>
+                  They're powerful alone - but even better when used together.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Second - box white - "Free Hubspot CRM" -->
+      <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-100 box-white">
+                <div class="contained-box-white">
+                  <div class="row">
+                    <div class="col-30">
+                      <img class="img-book" src="assets/img/book.svg" alt="Libro">
+                      <a class="btn btn-orange btn-big" href="#">Learn More</a>
+                    </div>
+                    <div class="col-70">
+                      <h3>Free HubSpot CRM</h3>
+                      <p class="description">Everything you need to organize, track, and build better
+                        relationship with leads and customers. Yes, it's 100% free. Forever.</p>
+                      <span class="subtitles-skills">popolar feature</span>
+                      <hr class="first-box-white-hr">
+                      <ul class="marg-t-30">
+                        <li class="orange-check">Contact Insight</li>
+                        <li class="orange-check">Deals</li>
+                        <li class="orange-check">Task</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- Third - three box white - "Marketing, Sales, Service" -->
+      <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-33 box-white">
+                <img src="" alt="">
+                <h3>Marketing Hub</h3>
+                <p>Marketing software to hel you grow traffic, convert more visitors,
+                and run complete inbound marketing campaigns at scale.</p>
+                <hr>
+                <span class="subtitles-skills">popolar feature</span>
+                <ul class="marg-t-30">
+                  <li class="orange-check">Lead Generation</li>
+                  <li class="orange-check">Marketing Automation</li>
+                  <li class="orange-check">Analytics</li>
+                </ul>
+              </div>
+              <div class="col-33 box-white">
+  asd
+              </div>
+              <div class="col-33 box-white">
+  asdf
+              </div>
 
+            </div>
+          </div>
       </section>
     </main>
     <footer>
