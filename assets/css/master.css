@@ -17,7 +17,7 @@ header {
 }
 
 .row {
-
+  margin: 0 -15px;
 }
 
 .row:after {
@@ -38,6 +38,7 @@ header {
 
 [class^=col-]{
   float: left;
+  padding: 0 15px;
 }
 
 .col-100 {
@@ -60,6 +61,10 @@ header {
   width: 30%;
   margin: 0 auto;
   text-align: center;
+}
+
+.h-150 {
+  height: 150px;
 }
 
 .btn {
@@ -355,5 +360,13 @@ h2 {
 .col-33 a {
   margin: 0 auto;
 }
+
+.btn-box-white {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+
 
 /* END THIRD SECTION MAIN THREE BOX WHITE */
