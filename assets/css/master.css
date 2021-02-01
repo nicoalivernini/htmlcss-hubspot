@@ -63,6 +63,10 @@ header {
   text-align: center;
 }
 
+.col-25 {
+  width: calc(100% / 4);
+}
+
 .h-150 {
   height: 150px;
 }
@@ -117,6 +121,10 @@ header {
 
 .list-skills {
   list-style: none;
+}
+
+.border-right {
+  border-right: 1px solid #fff;
 }
 
 /* END UTILITY */
@@ -350,6 +358,8 @@ h2 {
 .descr-service {
   text-align: center;
   padding: 35px 0 50px 0;
+  line-height: 25px;
+  font-size: 14px;
 }
 
 .col-33 .subtitles-skills {
@@ -368,5 +378,42 @@ h2 {
 }
 
 
-
 /* END THIRD SECTION MAIN THREE BOX WHITE */
+
+/* START FOURTH SECTION MAIN DATA */
+
+.bg-blue-green{
+  background-image: linear-gradient(#00a4db, #00bda5);
+  text-align: center;
+  color: #fff;
+  padding-bottom: 70px;
+}
+
+.title-data {
+  padding-top: 50px;
+  font-size: 32px;
+}
+
+.subtitle-data {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.subtitle-data:after {
+  content: '+';
+  font-size: 30px;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.descr-data {
+  text-align: center;
+  padding: 15px 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.contained-data img {
+  padding-top: 20px;
+}
