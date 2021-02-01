@@ -12,10 +12,6 @@ body {
   background-color: rgb(241, 248, 253);
 }
 
-header {
-
-}
-
 .row {
   /* margin: 0 -15px; */
 }
@@ -106,6 +102,14 @@ header {
   padding: 40px;
 }
 
+.padd-right-25 {
+  padding-right: 25px;
+}
+
+.padd-left-25 {
+  padding-left: 25px;
+}
+
 .description {
   font-size: 15px;
   color: rgb(39, 55, 72);
@@ -133,7 +137,6 @@ header {
 .bg-white {
   background-color: #fff;
 }
-
 
 /* END UTILITY */
 
@@ -223,10 +226,10 @@ header {
 
   /* START SECOND NAVBAR LEFT */
 
-  .bg-nav-white {
-    background-color: #fff;
-    padding: 0 10%;
-  }
+.bg-nav-white {
+  background-color: #fff;
+  padding: 0 10%;
+}
 
 .nav-menu {
   padding-top: 80px;
@@ -259,9 +262,6 @@ header {
 /* END SECOND NAVBAR */
 
 /* START JUMBO */
-.jumbo {
-
-}
 
 .img-jumbo {
   background-image: url('../img/jumbotron.png');
@@ -500,7 +500,6 @@ footer ul li a {
   font-size: 15px;
   text-decoration: none;
   display: inline-block;
-
 }
 
 .menu-footer a, .icon-social a{
@@ -551,6 +550,25 @@ footer ul li a {
   margin: 20px 0;
 }
 
+.navbar-footer {
+  padding-bottom: 100px;
+  padding-top: 15px;
+}
+
 .navbar-footer .nav-right li a{
   color: rgb(210, 214, 217);
+}
+
+.copyright {
+  color: rgb(210, 214, 217);
+}
+
+.footer-right {
+  float: right;
+  display: inline;
+}
+
+.footer-right li {
+  display: inline;
+  padding-right: 10px;
 }
