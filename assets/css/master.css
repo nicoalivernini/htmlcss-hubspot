@@ -417,3 +417,32 @@ h2 {
 .contained-data img {
   padding-top: 20px;
 }
+
+/* END FOURTH SECTION MAIN DATA */
+
+/* START FIFTH SECTION COMPANY */
+
+.text-company {
+  padding: 45px;
+  text-align: left;
+}
+
+.text-company h3 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.text-company p {
+  line-height: 30px;
+}
+
+.company {
+  padding: 70px;
+}
+
+.img-company {
+  height: 35px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
