@@ -82,8 +82,16 @@ header {
   margin-top: 70px;
 }
 
+.marg-t-50 {
+  margin-top: 50px;
+}
+
 .marg-t-30 {
   margin-top: 30px;
+}
+
+.padd-40 {
+  padding: 40px;
 }
 
 .description {
@@ -102,6 +110,9 @@ header {
   color: rgb(250, 95, 72);
 }
 
+.list-skills {
+  list-style: none;
+}
 
 /* END UTILITY */
 
@@ -275,7 +286,10 @@ h2 {
   font-size: 30px;
 }
 
-  /* START FIRST BOX WHITE */
+/* END FIRST SECTION MAIN */
+
+/* START SECOND SECTION MAIN BOX WHITE */
+
 
 .box-white {
   background-color: #fff;
@@ -290,7 +304,7 @@ h2 {
 
 }
 
-.img-book {
+.img-service {
   width: 40%;
   display: block;
   margin: 0 auto;
@@ -319,7 +333,27 @@ h2 {
   padding-right: 15px;
 }
 
-  /* END FIRST BOX WHITE */
+/* END SECOND SECTION MAIN BOX WHITE */
 
+/* START THIRD SECTION MAIN THREE BOX WHITE */
 
-/* END FIRST SECTION MAIN */
+.title-service {
+  text-align: center;
+  font-size: 20px;
+}
+
+.descr-service {
+  text-align: center;
+  padding: 35px 0 50px 0;
+}
+
+.col-33 .subtitles-skills {
+  text-align: center;
+  padding: 30px;
+}
+
+.col-33 a {
+  margin: 0 auto;
+}
+
+/* END THIRD SECTION MAIN THREE BOX WHITE */
